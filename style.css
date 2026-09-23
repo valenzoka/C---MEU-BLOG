@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+ header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 21, 16);
+    text-align: center;
+    max-width: 1300px;
+    margin: 0px auto;
+    font-family: "UnifrakturCook";
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px;
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 28, 32);
+    text-align: left
+}
+
+body {
+
+    background-image: url(https://framerusercontent.com/images/9nBHOIAXfTDb3vtI8FdmqrrQsMI.jpg);
+    background-position: center bottom;
+    background-size: contain;
+    margin: 0px;
+
+}
+
+time {
+    text-align: center;
+    max-width: 1300px;
+    margin: 0px auto;
+}
