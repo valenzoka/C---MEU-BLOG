@@ -35,9 +35,15 @@ time {
     
 }
 
-img {
 
-max-width: 100%;
-height: auto;
-margin: 15px 0px;
+.noticia {
+  margin-top: 40px;         
+  padding: 20px;           
+  border-top: 2px dashed rgb(23, 21, 16); }
+.noticia img {
+  display: block;           
+  max-width: 100%;          
+  height: auto;             
+  margin: 15px auto;        
+  border: 1px solid rgb(23, 21, 16); 
 }
