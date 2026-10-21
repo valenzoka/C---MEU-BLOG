@@ -13,6 +13,13 @@
     padding: 15px;
 }
 
+.links-topo {
+  display: flex;            
+  justify-content: center;   
+  gap: 15px;                
+  font-size: 12px;          
+  text-transform: uppercase;
+}
 
 main {
     background-color: rgb(255, 255, 255);
