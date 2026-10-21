@@ -1,77 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
- header {
+body {
+    background-image: url(https://framerusercontent.com/images/9nBHOIAXfTDb3vtI8FdmqrrQsMI.jpg);
+    background-position: center top;
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin: 0px;
+    background-color: #000000;
+}
+
+header {
     background-color: rgb(255, 255, 255);
     color: rgb(23, 21, 16);
     text-align: center;
     max-width: 1300px;
     margin: 0px auto;
-    font-family: "UnifrakturCook";
+    font-family: "UnifrakturCook", serif; 
     font-weight: 700;
     font-size: 40px;
     font-style: normal;
     padding: 15px;
+    box-sizing: border-box;
 }
 
+
 .links-topo {
-  display: flex;            
-  justify-content: center;   
-  gap: 15px;                
-  font-size: 12px;          
-  text-transform: uppercase;
+    display: flex;            
+    justify-content: center;   
+    gap: 15px;                
+    font-size: 12px;          
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.links-topo a {
+    color: rgb(23, 21, 16);
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.links-topo a:hover {
+    text-decoration: underline; 
+}
+
+.faixa-infos {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1300px;
+    margin: 15px auto;
+    padding: 8px 0;
+    font-size: 14px;
+    font-family: sans-serif;  
+    border-top: 1px solid black;
+    border-bottom: 4px double black;
+}
+
+time {
+    text-align: center;
+    max-width: 1300px; 
+    display: block;
+    margin: 0px auto; 
 }
 
 main {
     background-color: rgb(255, 255, 255);
     color: rgb(25, 28, 32);
     text-align: left;
+    max-width: 1300px; 
+    margin: 0px auto;  
+    box-sizing: border-box;
 }
-
-body {
-
-    background-image: url(https://framerusercontent.com/images/9nBHOIAXfTDb3vtI8FdmqrrQsMI.jpg);
-    background-position: center bottom;
-    background-size: contain;
-    margin: 0px;
-
-}
-
-time {
-    text-align: center;
-    max-width: 1300px; display: block;
-    margin: 0px auto; display: block;
-    
-}
-
-.faixa-infos {
-  display: flex;
-  justify-content: space-between; 
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 8px 0;
-  font-size: 14px;
-  font-family: sans-serif;  
-
-
-  border-top: 1px solid black;
-  border-bottom: 4px double black;
-}
-
 
 .noticia {
-  display: flex;            
-  align-items: flex-start;  
-  gap: 20px;                
-  max-width: 1300px;
-  margin: 40px auto 0 auto;
-  padding: 20px 0;
+    display: flex;            
+    align-items: flex-start;  
+    gap: 20px;                
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    padding: 20px 0;
 }
 
 .noticia-conteudo {
-  flex: 1;                  
+    flex: 1;                  
+    font-family: sans-serif; 
 }
 
 .noticia img {
-  width: 40%;               
-  height: auto;
+    width: 40%;               
+    height: auto;
+    border: 1px solid rgb(23, 21, 16);
 }
