@@ -1,5 +1,96 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Pirata+One&display=swap');
+
+
+body {
+    background-image: url(https://framerusercontent.com/images/9nBHOIAXfTDb3vtI8FdmqrrQsMI.jpg);
+    background-position: center top;
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin: 0px;
+    background-color: #000000;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 21, 16);
+    text-align: center;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 58px;
+    margin: 5px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.links-topo {
+    display: flex;            
+    justify-content: flex-end;   
+    gap: 15px;                
+    font-size: 11px;          
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.links-topo a {
+    color: rgb(23, 21, 16);
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.links-topo a:hover {
+    text-decoration: underline; 
+}
+
+
+.header-centro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-topo {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #333;
+    width: 200px;
+    text-align: left;
+    margin: 0;
+}
+
+.espaco-vazio {
+    width: 200px;
+}
+
+
+.faixa-infos {
+    display: flex;
+    justify-content: center; 
+    gap: 25px;
+    max-width: 1300px;
+    margin: 15px auto 0 auto;
+    padding: 8px 0;
+    font-size: 13px;
+    font-family: sans-serif;  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.faixa-infos a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faixa-infos a:hover {
+    text-decoration: underline;
+}
 
 main {
     background-color: rgb(255, 255, 255);
@@ -23,7 +114,8 @@ main {
 }
 
 .coluna-lateral {
-    flex: 1; }
+    flex: 1; 
+}
 
 
 .divisor-vertical {
